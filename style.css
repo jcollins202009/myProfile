@@ -1,0 +1,307 @@
+body {
+    margin: 0 auto;
+    font-family: Arial;
+}
+
+
+.zone {
+    /*padding:30px 50px;*/
+    color:#FFF;
+    font-size:2em;
+    border-radius:4px;
+    border:1px solid #bbb;
+    transition: all 0.3s linear;
+    /* height: 90px; */
+}
+
+
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;    
+  }
+
+  .sticky:hover {
+    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+.main-nav {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    font-size: 2.5vw;
+    font-family: "Bodoni MT";
+    justify-content: flex-end;
+}
+
+/* @media only screen and (max-width: 1300px) {
+    .main-nav {
+        font-size: 0.55em;
+        padding: 0 0 0 40%;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .main-nav {
+        font-size: 0.5em;
+        padding: 0 0 0 30%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .main-nav {
+        font-size: 0.45em;
+        padding: 0 0 0 20%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .main-nav {
+        font-size: 0.0.40em;
+        padding: 0 0 0 10%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .main-nav {
+        font-size: 2vw;
+         0.35em;
+        padding: 0;
+    }
+} */
+
+@media only screen and (max-width: 700px) {
+    .main-nav {
+        font-size: 4vw;
+        padding: 0;
+    }
+}
+
+li {
+    padding: calc(1vw);
+}
+
+.myName {
+    margin-right: auto; 
+    font-family: 'Brush Script MT'; 
+    color : blue; 
+    font-size: 3.0vw; 
+    font-weight: bold;
+}
+
+a {
+    color: #4a4a53;
+    text-decoration: none;
+    cursor:pointer;
+}
+
+.anchor{
+    display: block;
+    height: 80px; 
+    margin-top: -80px; 
+    visibility: hidden;
+    position: relative;
+  }
+
+/***********************************************************************
+ *  Cover
+ **********************************************************************/
+ .coverContainer {
+    /*show heigh: auto*/
+    height: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.cover {
+    width: 100rem;
+}
+
+.title {
+    position: absolute;  
+    left: 10%;
+    top: 20%;
+    /* transform: translate(-30%, -50%); */
+
+    color:white;
+    font-size: 5vw;
+    font-weight: bold;
+  }
+
+  /* @media only screen and (max-width: 1300px) {
+    .title {
+        left: 9%;
+        top: 38%;
+        font-size: 3.5em;        
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .title {
+        left: 10%;
+        top: 36%;
+        font-size: 3.3em;        
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .title {
+        left: 11%;
+        top: 34%;
+        font-size: 3em;        
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .title {
+        left: 12%;
+        top: 32%;
+        font-size: 2.5em;        
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .title {
+        left: 13%;
+        top: 30%;
+        font-size: 2.5em;        
+    }
+} */
+
+
+/***********************************************************************
+ *  Grid Panel
+ **********************************************************************/
+ .gridWrapper {
+    display: grid;
+    grid-gap: 20px;
+    color:#4a4a53;
+    border: 0;  
+ }
+ 
+ #aboutMeGridWrapper {
+    grid-template-columns: 1fr 2fr;
+}
+
+#skillsGridWrapper {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+
+#rolesGridWrapper {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+#projectsGridWrapper {
+    grid-template-columns: 1fr 2fr;
+}
+
+#contactGridWrapper {
+    grid-template-columns: 1fr;
+}
+
+.gridWrapper  p {
+    grid-row:1;
+    grid-column:1/-1;
+}
+
+.box {
+    padding: 20%;
+    /* margin: 20px; */
+}
+
+.box > img {
+    width: 100%;
+}
+
+/* .box:hover {
+    -webkit-transform: rotate(-7deg);
+    -moz-transform: rotate(-7deg);
+    -o-transform: rotate(-7deg);
+    transform: rotate(-7deg);
+} */
+
+.box > img {
+    width: 100%;
+    height: auto;
+    mix-blend-mode: multiply;
+}
+
+.showBox {
+    border-radius:4px;
+    border:1px solid black;
+    font-size: 2.0vw;
+    color: black;
+    text-align: center;
+}
+
+.sectionHeader {
+    text-align: center;
+    color: black;
+}
+
+.sectionText {
+    font-size: 1.8vw;
+    color: black;
+    padding: 1% 20% 5% 20%;
+}
+
+
+#tooltip {
+    background-color: lightgoldenrodyellow;
+    display: none;
+    position: relative;
+    /* width: 50%; */
+    top: -30%;
+    left: 105%; 
+    text-align: left;   
+    font-size: 1.5vw;
+  }
+
+.showBox:hover #tooltip {
+    display: block;
+  }
+
+
+@media only screen and (max-width: 1000px) {
+    .box {
+        padding: 10px;
+        margin: 0px;
+    }
+
+    .sectionText {
+        font-size: 4.0vw;
+    }
+}
+
+/***********************************************************************
+ *  Grey Background
+ **********************************************************************/
+ .greyLinear {
+    background: #7abcff; /* Old browsers */
+    background: -moz-linear-gradient(top, #7abcff 0%, #60abf8 44%, #4096ee 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7abcff), color-stop(44%,#60abf8), color-stop(100%,#4096ee)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #f0f1f3 0%,#dfe2e6 44%,#bec4ca 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #7abcff 0%,#c2c8ce 44%,#4096ee 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #7abcff 0%,#60abf8 44%,#4096ee 100%); /* IE10+ */
+    background: linear-gradient(top, #7abcff 0%,#60abf8 44%,#4096ee 100%); /* W3C */
+}
+
+.grey {
+    background-color: rgb(238, 232, 232);
+}
+
+.whiteBox {
+    background-color: white;
+}
+
+
+
+
