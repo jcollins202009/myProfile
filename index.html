@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Profile</title>
     <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
-<body class="grey">
+<body>
     <header>
         <nav class="zone sticky greyLinear">
-             <ul class="main-nav">
-                <li style="margin-right: auto; font-family: 'Brush Script MT'; color : blue; font-size: 3.0vw; font-weight: bold;">Jason Collins</li>
+             <ul class="navigationList">
+                <li class="myName">Jason Collins</li>
                 <li><a href="">Home.</a></li>
                 <li><a href="#aboutMe">About Me.</a></li>
                 <li><a href="#skills">Skills.</a></li>
@@ -27,58 +27,50 @@
         </div>
         <section>
             <span class="anchor" id="aboutMe"></span>
-            <div class="zone grey gridWrapper" id="aboutMeGridWrapper">    
-                <div class="box grey"><img src="./img/me.jpg"></div>
-                <p class="sectionHeader grey"><strong>About Me.</strong></p>
-                <div class="box grey sectionText whiteBox"><p>Hi, I'm Jason Collins, a Full Stack Developer with a passion for development. I enjoy continuous lifelong learning in development. I'm flexible, reliable and work well with others. I also enjoy teaching.</p></div>
+            <div class="zone lightGrey gridWrapper" id="aboutMeGridWrapper">    
+                <div class="box lightGrey"><img src="./img/me.jpg"></div>
+                <p class="sectionHeader lightGrey"><strong>About Me.</strong></p>
+                <div class="box sectionText darkGrey"><p>Hi, I'm Jason Collins, a Full Stack Developer with a passion for development. I enjoy continuous lifelong learning in development. I'm flexible, reliable and work well with others. I also enjoy teaching.</p><a href="#" class="btn">Download Resume</a></div>
             </div>
         </section>
         <section>
             <span class="anchor" id="skills"></span>
-            <div class="zone grey gridWrapper" id="skillsGridWrapper">    
-                <p class="sectionHeader grey"><strong>Skills.</strong></p>
-                <div class="box grey"><img src="./img/html5Transparent.png"></div>
-                <div class="box grey"><img src="./img/css3Transparent.png"></div>
-                <div class="box grey"><img src="./img/javascriptTransparent.png"></div>
-                <div class="box grey"><img src="./img/reactTransparent.png"></div>
-                <div class="box grey"><img src="./img/reduxTransparent.png"></div> 
-                <div class="box grey"><img src="./img/nodeTransparent.png"></div>                
-                <div class="box grey"><img src="./img/python3Transparent.png"></div>                
-                <div class="box grey"><img src="./img/githubTransparent.png"></div>                                
+            <div class="zone lightGrey gridWrapper" id="skillsGridWrapper">    
+                <p class="sectionHeader lightGrey"><strong>Skills.</strong></p>
+                <div class="box lightGrey"><img src="./img/html5Transparent.png"></div>
+                <div class="box lightGrey"><img src="./img/css3Transparent.png"></div>
+                <div class="box lightGrey"><img src="./img/javascriptTransparent.png"></div>
+                <div class="box lightGrey"><img src="./img/reactTransparent.png"></div>
+                <div class="box lightGrey"><img src="./img/reduxTransparent.png"></div> 
+                <div class="box lightGrey"><img src="./img/nodeTransparent.png"></div>                
+                <div class="box lightGrey"><img src="./img/python3Transparent.png"></div>                
+                <div class="box lightGrey"><img src="./img/githubTransparent.png"></div>                                
             </div>
         </section>
         <!-- <section>
-            <div class="zone grey gridWrapper" id="rolesGridWrapper">    
-                <p class="sectionHeader grey"><strong>Roles.</strong></p>
-                <div class="box grey showBox"><p>IT Support</p></div>
-                <div class="box grey showBox"><p>QA Analyst</p></div>
+            <div class="zone lightGrey gridWrapper" id="rolesGridWrapper">    
+                <p class="sectionHeader lightGrey"><strong>Roles.</strong></p>
+                <div class="box showBox darkGrey"><p>IT Support</p></div>
+                <div class="box showBox darkGrey"><p>QA Analyst</p></div>
             </div>
         </section>  -->
-        <!-- <section>
-            <div class="zone grey gridWrapper" id="projectsGridWrapper">    
-                <p class="sectionHeader grey"><strong>Projects.</strong></p>
-                <div class="box grey showBox">SmartBrain<span id="tooltip">Tooltip text<br>More</span></div>
-                <div class="box grey showBox"><p>TBD</p></div>
-                <div class="box grey showBox"><p>TBD</p></div>
-            </div>
-        </section>                 -->
-        <section>
+         <section>
             <span class="anchor" id="projects"></span>
-            <div class="zone grey gridWrapper" id="projectsGridWrapper">    
-                <div class="box grey"><img src="./img/me.jpg"></div>
-                <p class="sectionHeader grey"><strong>Projects.</strong></p>
-                <div class="box grey sectionText whiteBox"><p><strong>SmartBrain</strong><br><br>Explanation of project.</p></div>
-                <div class="box grey"><img src="./img/me.jpg"></div>                
-                <div class="box grey sectionText whiteBox"><p><strong>TBD</strong><br><br>Explanation of project.</p></div>
-                <div class="box grey"><img src="./img/me.jpg"></div>                
-                <div class="box grey sectionText whiteBox"><p><strong>TBD</strong><br><br>Explanation of project.</p></div>
+            <div class="zone lightGrey gridWrapper" id="projectsGridWrapper">    
+                <div class="box lightGrey"><img src="./img/me.jpg"></div>
+                <p class="sectionHeader lightGrey"><strong>Projects.</strong></p>
+                <div class="box sectionText darkGrey"><p><strong>SmartBrain</strong><br><br>Explanation of project.</p></div>
+                <div class="box"><img src="./img/me.jpg"></div>                
+                <div class="box sectionText darkGrey"><p><strong>TBD</strong><br><br>Explanation of project.</p></div>
+                <div class="box"><img src="./img/me.jpg"></div>                
+                <div class="box sectionText darkGrey"><p><strong>TBD</strong><br><br>Explanation of project.</p></div>
             </div>
         </section>
         <section>
             <span class="anchor" id="contact"></span>
-            <div class="zone grey gridWrapper" id="contactGridWrapper">    
-                <p class="sectionHeader grey"><strong>Contact.</strong></p>
-                <div class="box grey sectionText"><p>If you have any questions or are interested to discuss further with me, you can reach me at:<br><br>Email: jason-linux@hotmail.com</p></div>
+            <div class="zone lightGrey gridWrapper" id="contactGridWrapper">    
+                <p class="sectionHeader lightGrey"><strong>Contact.</strong></p>
+                <div class="box lightGrey sectionText"><p>If you have any questions or are interested to discuss further with me, you can reach me at:<br><br>Email: jason-linux@hotmail.com</p></div>
             </div>
         </section>        
     </main>
@@ -86,4 +78,4 @@
 
     </footer>
 </body>
-</html>>
+</html>
