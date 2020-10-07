@@ -115,7 +115,7 @@ a {
 }
 
 #skillsGridWrapper {
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
 }
 
 #rolesGridWrapper {
@@ -162,7 +162,7 @@ a {
 .sectionText {
     font-size: 1.8vw;
     color: black;
-    padding: 1% 20% 5% 20%;
+    padding: 1% 10% 5% 10%;
 }
 
 .btn {
@@ -207,6 +207,14 @@ a {
     .btn {
         font-size: 2.5vw;
     }
+
+    .sectionHeader {
+        font-size:5.0vw;
+    }
+
+    #skillsGridWrapper {
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    }    
 }
 
 /***********************************************************************
