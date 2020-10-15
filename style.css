@@ -90,7 +90,7 @@ a {
 }
 
 .cover {
-    width: 100rem;
+    width: 100vw;
 }
 
 .title {
@@ -232,6 +232,10 @@ a {
     #skillsGridWrapper {
         grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     }     
+
+    .title {
+        top: 5%;
+    }    
 }
 
 /***********************************************************************
