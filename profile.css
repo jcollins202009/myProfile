@@ -1,0 +1,286 @@
+body{
+    background-color: #4d0026;
+}
+
+/***********************************************************************
+ *  Navigation Menu
+ **********************************************************************/
+/* .container-fluid {
+    padding: 0;
+} */
+
+ .navBar {
+    background-color: #4d0026;
+}
+
+.navbar-nav > li{
+    margin-left:20px;
+    margin-right:20px;
+}
+
+.navLink {
+    font-size: 1.5vw;
+    font-family: "Bodoni MT";
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color:#BDA0CB
+     /* #ffcce6; */
+}
+
+.navbar-light .nav-item.active .nav-link,
+.navbar-light .nav-item .nav-link:active,
+.navbar-light .nav-item .nav-link:focus,
+.navbar-light .nav-item:hover .nav-link {
+    color: #ffcce6;
+}
+
+.navbar-light .nav-item .nav-link:hover {
+    color: #4d0026;
+}
+
+/* li {
+    padding: calc(1vw);
+}
+
+a {
+    color: #ffcce6;
+    text-decoration: none;
+    cursor:pointer;
+    padding: 10px;
+    background-color: transparent;    
+} */
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 10px 20px 10px 20px;
+}
+
+.navbar-nav .nav-link:hover {
+    border-radius: 30px;
+    /* background-color: #ccccb3; */
+    background-color: #ffcce6;
+    color: #4d0026;
+    /* padding: 10px 20px 10px 20px; */
+}
+
+.navbar-toggler {
+    color: #ffcce6;
+    margin-right: 0.5rem;
+}
+
+/* .myName {
+    margin-right: auto; 
+    font-family: 'Brush Script MT'; 
+    color :#4a4a53;
+    font-size: 2.5vw; 
+    font-weight: bold;
+    padding: 30 0 0 0;
+} */
+
+/* #myInitials {
+    margin-right: auto; 
+    font-family: 'Brush Script MT'; 
+    color :#4a4a53;
+    font-size: 2.5vw; 
+    font-weight: bold;
+    padding: 1vw 0 0 0;
+} */
+
+.anchor{
+    display: block;
+    height: 90px; 
+    margin-top: -90px; 
+    visibility: hidden;
+    position: relative;
+  }
+
+/***********************************************************************
+*   Scrollbar
+ **********************************************************************/
+ /* .scrollbar
+ {
+   margin-left: 30px;
+   float: left;
+   height: 300px;
+   width: 65px;
+   background: #F5F5F5;
+   overflow-y: scroll;
+   margin-bottom: 25px;
+ }
+ 
+ .force-overflow
+ {
+   min-height: 450px;
+ }
+ 
+ #wrapper
+ {
+   text-align: center;
+   width: 500px;
+   margin: auto;
+ } */
+
+::-webkit-scrollbar-track
+{
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
+  box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
+  background-color: #BDA0CB;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar
+{
+  width: 20px;
+  background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+  border-radius: 10px;
+  background-color: #FFF;
+  background-image: -webkit-linear-gradient(top,
+  #ffcce6 0%,
+  #4d0026 100%);
+  height: 20%;
+}
+
+/***********************************************************************
+ *  Cover
+ **********************************************************************/
+.container {
+    margin: 0;
+    padding: 0
+}
+
+.row > * {
+    padding: 0;
+}
+
+.row {
+    --bs-gutter-x: 0;
+}
+
+ /* #coverContainer {
+   
+} */
+
+#cover {
+    /* position:relative; */
+    /* position: relative; */
+    width: 100%;
+    display: flex;
+    flex-grow: 1;
+    height: 100vh;
+    object-fit: cover;
+    /* background-color: #4d0026; */
+
+    /* min-height: 100%; */
+
+    /* overflow: auto; */
+    /* overflow-y: hidden;
+    overflow-x: hidden; */
+
+}
+
+/***********************************************************************
+ *  Cards
+ **********************************************************************/
+
+ .card {
+    margin: 0 auto; 
+    float: none;
+    margin-bottom: 10px;
+    background-color: #ddd3ee;
+     /* #e0b0ff */
+    /* #BDA0CB; */
+}
+
+.aboutMeCard {
+    max-width: 750px;   
+}
+
+.skillsCard {
+    max-width: 1000px;   
+}
+
+.projectCard {
+    max-width: 1300px;   
+}
+
+.card-title {
+    color: #4d0026;
+}
+
+.card-text {
+    color: #4d0026;
+}
+
+.me {
+    width: 200px; 
+    height: auto
+}
+
+.skillPng {
+    width: 160px; 
+    height: 140px;
+    padding: 20px;
+}
+
+.projectCarousel {
+    width: 50%; 
+    height: auto; 
+    margin: auto;
+}
+
+.projectSlide {
+    width: 100%; 
+    height: auto;
+}
+
+.mobileSlide {
+    margin: auto;
+}
+
+.carousel-caption {
+    color: #4d0026;
+}
+
+@media (max-width: 978px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 0.5rem 1rem 0.5rem 1rem;
+        font-size: 1rem;
+    }
+
+    #cover {
+        /* position:relative; */
+        /* position: relative; */
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+    }  
+
+    .me {
+        width: 200px; 
+        height: auto
+    }
+
+    .aboutMeCard {
+        max-width: 300px;
+    }
+
+    .projectCarousel {
+        width: 100%; 
+        height: auto; 
+        margin: auto;
+    }
+
+    .skillsCard {
+        max-width: 300px;
+    }
+
+    .skillPng {
+        width: 120px; 
+        height: 90px;
+        padding: 20px;
+    }   
+}

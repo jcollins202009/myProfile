@@ -1,98 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Profile</title>
-    <link rel="stylesheet" type="text/css" href="./style.css">
+    <title>Jason Collins</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./index.css">
 </head>
-<body>
-    <header>
-        <nav class="zone sticky greyLinear">
-             <ul class="navigationList">
-                <li class="myName">Jason Collins</li>
-                <li><a href="">Home.</a></li>
-                <li><a href="#aboutMe">About Me.</a></li>
-                <li><a href="#skills">Skills.</a></li>
-                <!-- <li><a href="">Roles.</a></li> -->
-                <li><a href="#projects">Projects.</a></li>
-                <li><a href="#contact">Contact.</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <div class="coverContainer">
-            <img class="cover" src="./img/code.jpg">
-            <p class="title">Full<br>Stack<br>Developer.</p>
-        </div>
-        <section>
-            <span class="anchor" id="aboutMe"></span>
-            <div class="zone lightGrey gridWrapper" id="aboutMeGridWrapper">    
-                <div class="box lightGrey"><img src="./img/me.jpg"></div>
-                <p class="sectionHeader lightGrey"><strong>About Me.</strong></p>
-                <div class="box sectionText darkGrey">
-                    <p>Hi, I'm Jason Collins, a Full Stack Developer with a passion for development. I enjoy continuous lifelong
-                        learning in development. I'm flexible, reliable and work well with others. I also enjoy teaching.</p><br>
-                    <a href="#" class="btn">Download Resume</a>
-                </div>
-            </div>
-        </section>
-        <section>
-            <span class="anchor" id="skills"></span>
-            <div class="zone lightGrey gridWrapper" id="skillsGridWrapper">    
-                <p class="sectionHeader lightGrey"><strong>Skills.</strong></p>
-                <div class="box lightGrey"><img src="./img/html5Transparent.png"></div>
-                <div class="box lightGrey"><img src="./img/css3Transparent.png"></div>
-                <div class="box lightGrey"><img src="./img/javascriptTransparent.png"></div>
-                <div class="box lightGrey"><img src="./img/reactTransparent.png"></div>
-                <div class="box lightGrey"><img src="./img/reduxTransparent.png"></div> 
-                <div class="box lightGrey"><img src="./img/nodeTransparent.png"></div>                
-                <div class="box lightGrey"><img src="./img/python3Transparent.png"></div>                
-                <div class="box lightGrey"><img src="./img/githubTransparent.png"></div>   
-                <div class="box lightGrey"><img src="./img/postgreSQLTransparent.png"></div>                                             
-            </div>
-        </section>
-        <!-- <section>
-            <div class="zone lightGrey gridWrapper" id="rolesGridWrapper">    
-                <p class="sectionHeader lightGrey"><strong>Roles.</strong></p>
-                <div class="box showBox darkGrey"><p>IT Support</p></div>
-                <div class="box showBox darkGrey"><p>QA Analyst</p></div>
-            </div>
-        </section>  -->
-         <section>
-            <span class="anchor" id="projects"></span>
-            <div class="zone lightGrey gridWrapper" id="projectsGridWrapper">    
-                <div class="box lightGrey"><img src="./img/roboFriends.png"></div>
-                <p class="sectionHeader lightGrey"><strong>Projects.</strong></p>
-                <div class="box sectionText darkGrey">
-                    <p><strong>Robofriends</strong><br><br>This React application gets users using jsonplaceholder API, and then
-                        displays their names in cards on the website. Each card gets a robot image using robohash API. The application
-                        also allows you to narrow down the list of robot cards displayed by searching for part of their name in a search
-                        box.</p>
-                </div>
-                <div class="box"><img src="./img/smartbrain.jpg"></div>
-                <div class="box sectionText darkGrey">
-                    <p><strong>SmartBrain</strong><br><br>This is a React application that allows users to enter an image url of a
-                        person, and the application will perform facial recognition on the image. It also has signin and signoff
-                        capability. As well the application keeps track of who has performed the most facial recognitions.</p>
-                </div>
-                <div class="box"><img src="./img/TBD.jpg"></div>
-                <div class="box sectionText darkGrey">
-                    <p><strong>TBD</strong><br><br>Explanation of project.</p>
-                </div>
-            </div>
-        </section>
-        <section>
-            <span class="anchor" id="contact"></span>
-            <div class="zone lightGrey gridWrapper" id="contactGridWrapper">    
-                <div class="sectionHeader lightGrey"><strong>Contact.</strong></div>
-                <div class="box lightGrey sectionText">If you have any questions or are interested to discuss further with me, you can
-                    reach me at:<br><br>Email: jason-linux@hotmail.com</div>
-            </div>       
-        </section>        
-    </main>
-    <footer>
 
-    </footer>
+<body>
+    <div class="container">
+        <!-- <div class="row p-4">
+            <div class="column d-flex justify-content-end">
+                <a class='customButton' href="profile.html">Profile</a>
+            </div>
+        </div> -->
+        <div class="row">
+            <div class="column">
+                <script src="index.js"></script>
+                <a class='customButton' href="profile.html">Enter Profile</a>                
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+    </div>
 </body>
+
 </html>

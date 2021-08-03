@@ -1,0 +1,1443 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Profile</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="./profile.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light navBar pt-4">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img
+              src="./img/initials.png"
+              alt=""
+              class="d-inline-block align-top"
+            />
+          </a>
+          <button
+            class="navbar-dark navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a id="homeLink" class="nav-link navLink" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a id="aboutMeLink" class="nav-link navLink" href="#aboutMe"
+                  >About Me</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navLink" href="#skills">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navLink" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navLink" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <div id="coverContainer">
+          <img id="cover" src="./img/hologram.jpg" />
+        </div>
+      </section>
+
+      <section>
+        <span class="anchor" id="aboutMe"> </span>
+        <div class="card mt-5 mb-5 aboutMeCard">
+          <div class="row">
+            <div class="col-md-4 ps-5 pt-5 pb-lg-5">
+              <img src="./img/me.jpg" class="me" />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body pt-5 ps-4 pb-5 pe-4">
+                <h1 class="card-title pb-4 text-center">About Me</h1>
+                <p class="card-text">
+                  Hi, I'm Jason Collins. I'm a Full Stack Developer using React,
+                  React Native, NodeJS, and many relational and nonrelational databases. I have a passion for
+                  development. I also enjoy problem solving, continuous lifelong
+                  learning in development, and teaching.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <span class="anchor" id="skills"> </span>
+        <div class="card mt-5 mb-5 pb-5 skillsCard">
+          <div class="row text-center">
+            <div class="col-md-12">
+              <div class="card-body pt-5 ps-4 pe-4">
+                <h1 class="card-title pb-4">My Skills</h1>
+              </div>
+            </div>
+          </div>
+          <div class="row row-cols-2 row-cols-md-4 g-4 text-center">
+            <div class="col">
+              <img src="./img/reactTransparent.png" class="skillPng" />
+            </div>
+            <div class="col">
+              <img src="./img/reactNativeTransparent.png" class="skillPng" />
+            </div>
+            <div class="col">
+              <img src="./img/expoTransparent.png" class="skillPng" />
+            </div>
+            <div class="col">
+              <img src="./img/reduxTransparent.png" class="skillPng" />
+            </div>
+            <div class="col">
+              <img src="./img/nodeTransparent.png" class="skillPng" />
+            </div>
+            <div class="col">
+              <img src="./img/html5Transparent.png" class="skillPng" />
+            </div>
+            <div class="col">
+              <img src="./img/css3Transparent.png" class="skillPng" />
+            </div>
+            <div class="col">
+              <img src="./img/javascriptTransparent.png" class="skillPng" />
+            </div>
+            <div class="col">
+              <img src="./img/bootstrapTransparent.png" class="skillPng" />
+            </div>
+            <div class="col">
+              <img src="./img/materialUITransparent.png" class="skillPng" />
+            </div>
+            <div class="col">
+              <img src="./img/mySQLTransparent.png" class="skillPng" />
+            </div>
+            <div class="col">
+              <img src="./img/postgreSQLTransparent.png" class="skillPng" />
+            </div>
+            <div class="col">
+              <img src="./img/couchDBTransparent.png" class="skillPng" />
+            </div>
+            <div class="col">
+              <img src="./img/herokuTransparent.png" class="skillPng" />
+            </div>
+            <div class="col">
+              <img src="./img/awsTransparent.png" class="skillPng" />
+            </div>
+            <div class="col">
+              <img src="./img/githubTransparent.png" class="skillPng" />
+            </div>
+            <div class="col">
+              <img src="./img/stripeTransparent.png" class="skillPng" />
+            </div>            
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <span class="anchor" id="projects"> </span>
+        <div class="card mt-5 mb-5 projectCard">
+          <div class="row">
+            <h1 class="card-title pt-4 pb-4 text-center">Projects</h1>
+          </div>
+          <div class="row ps-3">
+            <div
+              id="schuswapWaterSportsCarouselFade"
+              class="col-md-6 carousel slide carousel-fade pt-5 pb-lg-5 projectCarousel"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active ps-md-3 pe-3">
+                  <img
+                    src="./img/projects/Shuswap Water Sports/Home.png"
+                    class="d-block w-100 projectSlide"
+                    alt="Home"
+                  />
+                  <div class="carousel-caption d-md-block">
+                    <h5>Home</h5>
+                    <p></p>
+                  </div>
+                </div>
+                <div class="carousel-item ps-md-3 pe-3">
+                  <img
+                    src="./img/projects/Shuswap Water Sports/Adventures.png"
+                    class="d-block w-100 projectSlide"
+                    alt="Adventures"
+                  />
+                  <div class="carousel-caption d-md-block">
+                    <h5>Adventures</h5>
+                    <p>Choose an adventure</p>
+                  </div>
+                </div>
+                <div class="carousel-item ps-md-3 pe-3">
+                  <img
+                    src="./img/projects/Shuswap Water Sports/Water Sport Adventures Booking Form.png"
+                    class="d-block w-100 projectSlide"
+                    alt="Adventures Booking Form"
+                  />
+                  <div class="carousel-caption d-md-block">
+                    <h5>Water Sport Adventures Booking Form</h5>
+                    <p>Book an adventure</p>
+                  </div>
+                </div>
+                <div class="carousel-item ps-md-3 pe-3">
+                    <img
+                      src="./img/projects/Shuswap Water Sports/Wakesurf Lessons.png"
+                      class="d-block w-100 projectSlide"
+                      alt="Wakesurf Lessons"
+                    />
+                    <div class="carousel-caption d-md-block">
+                      <h5>Wakesurf Lessons</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item ps-md-3 pe-3">
+                    <img
+                      src="./img/projects/Shuswap Water Sports/Wakesurf Lessons Booking Form.png"
+                      class="d-block w-100 projectSlide"
+                      alt="Wakesurf Lessons Booking Form"
+                    />
+                    <div class="carousel-caption d-md-block">
+                      <h5>Water Sport Lessons Booking Form</h5>
+                      <p>Book a lesson</p>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item ps-md-3 pe-3">
+                    <img
+                      src="./img/projects/Shuswap Water Sports/Custom Packages.png"
+                      class="d-block w-100 projectSlide"
+                      alt="Custom Packages"
+                    />
+                    <div class="carousel-caption d-md-block">
+                      <h5>Custom Packages</h5>
+                      <p></p>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item ps-md-3 pe-3">
+                    <img
+                      src="./img/projects/Shuswap Water Sports/Custom Packages Booking Form.png"
+                      class="d-block w-100 projectSlide"
+                      alt="Custom Packages Booking Form"
+                    />
+                    <div class="carousel-caption d-md-block">
+                      <h5>Custom Packages Booking Form</h5>
+                      <p>Book a custom package</p>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item ps-md-3 pe-3">
+                    <img
+                      src="./img/projects/Shuswap Water Sports/Camps.png"
+                      class="d-block w-100 projectSlide"
+                      alt="Camps"
+                    />
+                    <div class="carousel-caption d-md-block">
+                      <h5>Camps</h5>
+                      <p></p>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item ps-md-3 pe-3">
+                    <img
+                      src="./img/projects/Shuswap Water Sports/Camps Booking Form.png"
+                      class="d-block w-100 projectSlide"
+                      alt="Camps Booking Form"
+                    />
+                    <div class="carousel-caption d-md-block">
+                      <h5>Camps Booking Form</h5>
+                      <p>Book a camp</p>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item ps-md-3 pe-3">
+                    <img
+                      src="./img/projects/Shuswap Water Sports/Water Sport Rentals Booking Form.png"
+                      class="d-block w-100 projectSlide"
+                      alt="Water Sport Rentals Booking Form"
+                    />
+                    <div class="carousel-caption d-md-block">
+                      <h5>Water Sport Rentals Booking Form</h5>
+                      <p>Book rental</p>
+                    </div>
+                  </div>                  
+
+                  <div class="carousel-item ps-md-3 pe-3">
+                    <img
+                      src="./img/projects/Shuswap Water Sports/My Bookings.png"
+                      class="d-block w-100 projectSlide"
+                      alt="My Bookings"
+                    />
+                    <div class="carousel-caption d-md-block">
+                      <h5>My Bookings</h5>
+                      <p>View current bookings and custom requests</p>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item ps-md-3 pe-3">
+                    <img
+                      src="./img/projects/Shuswap Water Sports/My Past Bookings.png"
+                      class="d-block w-100 projectSlide"
+                      alt="My Past Bookings"
+                    />
+                    <div class="carousel-caption d-md-block">
+                      <h5>My Past Bookings</h5>
+                      <p>View past bookings and custom requests</p>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item ps-md-3 pe-3">
+                    <img
+                      src="./img/projects/Shuswap Water Sports/Store.png"
+                      class="d-block w-100 projectSlide"
+                      alt="Store"
+                    />
+                    <div class="carousel-caption d-md-block">
+                      <h5>Store</h5>
+                      <p></p>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item ps-md-3 pe-3">
+                    <img
+                      src="./img/projects/Shuswap Water Sports/Cart.png"
+                      class="d-block w-100 projectSlide"
+                      alt="Cart"
+                    />
+                    <div class="carousel-caption d-md-block">
+                      <h5>Cart</h5>
+                      <p></p>
+                    </div>
+                  </div>                  
+
+                  <div class="carousel-item ps-md-3 pe-3">
+                    <img
+                      src="./img/projects/Shuswap Water Sports/Checkout.png"
+                      class="d-block w-100 projectSlide"
+                      alt="Checkout"
+                    />
+                    <div class="carousel-caption d-md-block">
+                      <h5>Checkout</h5>
+                      <p></p>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item ps-md-3 pe-3">
+                    <img
+                      src="./img/projects/Shuswap Water Sports/Pay Now.png"
+                      class="d-block w-100 projectSlide"
+                      alt="Payment"
+                    />
+                    <div class="carousel-caption d-md-block">
+                      <h5>Payment</h5>
+                      <p></p>
+                    </div>
+                  </div>
+                  
+                  <div class="carousel-item ps-md-3 pe-3">
+                    <img
+                      src="./img/projects/Shuswap Water Sports/Register.png"
+                      class="d-block w-100 projectSlide"
+                      alt="Register"
+                    />
+                    <div class="carousel-caption d-md-block">
+                      <h5>Register</h5>
+                      <p></p>
+                    </div>
+                  </div>                    
+
+                  <div class="carousel-item ps-md-3 pe-3">
+                    <img
+                      src="./img/projects/Shuswap Water Sports/Sign In.png"
+                      class="d-block w-100 projectSlide"
+                      alt="Sign In"
+                    />
+                    <div class="carousel-caption d-md-block">
+                      <h5>Sign In</h5>
+                      <p></p>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item ps-md-3 pe-3">
+                    <img
+                      src="./img/projects/Shuswap Water Sports/Contest Registration.png"
+                      class="d-block w-100 projectSlide"
+                      alt="Contest Registration"
+                    />
+                    <div class="carousel-caption d-md-block">
+                      <h5>Contest Registration Top</h5>
+                      <p></p>
+                    </div>
+                  </div>                   
+
+                  <div class="carousel-item ps-md-3 pe-3">
+                    <img
+                      src="./img/projects/Shuswap Water Sports/Contest Registration Bottom.png"
+                      class="d-block w-100 projectSlide"
+                      alt="Contest Registration Bottom"
+                    />
+                    <div class="carousel-caption d-md-block">
+                      <h5>Contest Registration Bottom</h5>
+                      <p></p>
+                    </div>
+                  </div> 
+
+                  <div class="carousel-item ps-md-3 pe-3">
+                    <img
+                      src="./img/projects/Shuswap Water Sports/Admin Sign In.png"
+                      class="d-block w-100 projectSlide"
+                      alt="Admin Sign In"
+                    />
+                    <div class="carousel-caption d-md-block">
+                      <h5>Admin Sign In</h5>
+                      <p></p>
+                    </div>
+                  </div>    
+                  
+                  <div class="carousel-item ps-md-3 pe-3">
+                    <img
+                      src="./img/projects/Shuswap Water Sports/Admin Calendar.png"
+                      class="d-block w-100 projectSlide"
+                      alt="Admin Calendar"
+                    />
+                    <div class="carousel-caption d-md-block">
+                      <h5>Admin Calendar</h5>
+                      <p></p>
+                    </div>
+                  </div>                    
+
+                  <div class="carousel-item ps-md-3 pe-3">
+                    <img
+                      src="./img/projects/Shuswap Water Sports/Admin Custom Requests.png"
+                      class="d-block w-100 projectSlide"
+                      alt="Admin Custom Requests"
+                    />
+                    <div class="carousel-caption d-md-block">
+                      <h5>Admin Custom Requests</h5>
+                      <p></p>
+                    </div>
+                  </div> 
+
+
+                  <div class="carousel-item ps-md-3 pe-3">
+                    <img
+                      src="./img/projects/Shuswap Water Sports/Admin Store Orders.png"
+                      class="d-block w-100 projectSlide"
+                      alt="Admin Store Orders"
+                    />
+                    <div class="carousel-caption d-md-block">
+                      <h5>Admin Store Orders</h5>
+                      <p></p>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item ps-md-3 pe-3">
+                    <img
+                      src="./img/projects/Shuswap Water Sports/Admin Contests.png"
+                      class="d-block w-100 projectSlide"
+                      alt="Admin Contests"
+                    />
+                    <div class="carousel-caption d-md-block">
+                      <h5>Admin Contests</h5>
+                      <p></p>
+                    </div>
+                  </div>                  
+
+                </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#schuswapWaterSportsCarouselFade"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#schuswapWaterSportsCarouselFade"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <div class="col-md-6">
+              <div class="card-body pt-5 ps-4 pb-5 pe-4">
+                <h2 class="card-title pb-4">Shuswap Water Sports</h2>
+                <p class="card-text">
+                  This application allows users to book water sports (adventures, camps, custom packages and rentals) in the Shuswap.
+                </p>
+                <p class="card-text">
+                  <i><b>Technologies used:</b></i> React, Bootstrap, Redux, Stripe, NodeJS, MongoDB
+                </p>
+                <p class="card-text">
+                  <i><b>Github repository:</b></i>
+                  <span>Available upon request</span>
+                </p>
+                <p class="card-text">
+                  <i><b>Production Url:</b></i>
+                  <span>Coming soon</span>
+                </p>                
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mt-5 mb-5 projectCard">
+          <div class="row ps-3">
+            <div
+              id="artiziaCarouselFade"
+              class="col-md-6 carousel slide carousel-fade pt-5 pb-lg-5 projectCarousel"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="./img/projects/Artizia/Home Top.png"
+                    class="d-block w-50 projectSlide mobileSlide"
+                    alt="Home Top"
+                  />
+                  <div class="carousel-caption d-md-block">
+                    <h5>Top of Home</h5>
+                    <p>
+                      Allows search for specific items, and shows search result
+                      items listed by category
+                    </p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./img/projects/Artizia/Home Bottom.png"
+                    class="d-block w-50 projectSlide mobileSlide"
+                    alt="Home Bottom"
+                  />
+                  <div class="carousel-caption d-md-block">
+                    <h5>Results on Home</h5>
+                    <p>Search result items listed by category</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./img/projects/Artizia/Advanced Search Top.png"
+                    class="d-block w-50 projectSlide mobileSlide"
+                    alt="Advanced Search Top"
+                  />
+                  <div class="carousel-caption d-md-block">
+                    <h5>Top of Advanced Search</h5>
+                    <p>
+                      Allows search for specific items within a category(ies),
+                      and shows result items within category(ies)
+                    </p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./img/projects/Artizia/Advanced Search Bottom.png"
+                    class="d-block w-50 projectSlide mobileSlide"
+                    alt="Advanced Search Bottom"
+                  />
+                  <div class="carousel-caption d-md-block">
+                    <h5>Results of Advanced Search</h5>
+                    <p>Search result items within category(ies)</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./img/projects/Artizia/Item Detail Top.png"
+                    class="d-block w-50 projectSlide mobileSlide"
+                    alt="Item Detail Top"
+                  />
+                  <div class="carousel-caption d-md-block">
+                    <h5>Top of Item Detail</h5>
+                    <p>Details about the item</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./img/projects/Artizia/Item Detail Bottom.png"
+                    class="d-block w-50 projectSlide mobileSlide"
+                    alt="Item Detail Bottom"
+                  />
+                  <div class="carousel-caption d-md-block">
+                    <h5>Continuation of Item Detail</h5>
+                    <p>Send a message to the seller</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./img/projects/Artizia/Announcements.png"
+                    class="d-block w-50 projectSlide mobileSlide"
+                    alt="Announcements"
+                  />
+                  <div class="carousel-caption d-md-block">
+                    <h5>Announcements</h5>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./img/projects/Artizia/Sign In.png"
+                    class="d-block w-50 projectSlide mobileSlide"
+                    alt="Sign In"
+                  />
+                  <div class="carousel-caption d-md-block">
+                    <h5>Sign In</h5>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./img/projects/Artizia/Sign Up Top.png"
+                    class="d-block w-50 projectSlide mobileSlide"
+                    alt="Sign Up Top"
+                  />
+                  <div class="carousel-caption d-md-block">
+                    <h5>Top of Sign Up</h5>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./img/projects/Artizia/Sign Up Bottom.png"
+                    class="d-block w-50 projectSlide mobileSlide"
+                    alt="Sign Up Bottom"
+                  />
+                  <div class="carousel-caption d-md-block">
+                    <h5>Continuation of Sign Up</h5>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./img/projects/Artizia/Add Item Top.png"
+                    class="d-block w-50 projectSlide mobileSlide"
+                    alt="Add Item Top"
+                  />
+                  <div class="carousel-caption d-md-block">
+                    <h5>Top of Add Item</h5>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./img/projects/Artizia/Add Item Bottom.png"
+                    class="d-block w-50 projectSlide mobileSlide"
+                    alt="Add Item Bottom"
+                  />
+                  <div class="carousel-caption d-md-block">
+                    <h5>Continuation of Add Item</h5>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./img/projects/Artizia/Add Photos.png"
+                    class="d-block w-50 projectSlide mobileSlide"
+                    alt="Add Photos"
+                  />
+                  <div class="carousel-caption d-md-block">
+                    <h5>Add Photos to Item</h5>
+                    <p>Take photos or browse photos of item</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./img/projects/Artizia/My Items Top.png"
+                    class="d-block w-50 projectSlide mobileSlide"
+                    alt="My Items Top"
+                  />
+                  <div class="carousel-caption d-md-block">
+                    <h5>Top of My Items</h5>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./img/projects/Artizia/My Items Bottom.png"
+                    class="d-block w-50 projectSlide mobileSlide"
+                    alt="My Items Bottom"
+                  />
+                  <div class="carousel-caption d-md-block">
+                    <h5>Continuation of My Items</h5>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./img/projects/Artizia/Messages.png"
+                    class="d-block w-50 projectSlide mobileSlide"
+                    alt="Messages"
+                  />
+                  <div class="carousel-caption d-md-block">
+                    <h5>Messages</h5>
+                    <p>List of item conversations</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./img/projects/Artizia/Message Detail.png"
+                    class="d-block w-50 projectSlide mobileSlide"
+                    alt="Message Detail"
+                  />
+                  <div class="carousel-caption d-md-block">
+                    <h5>Message Detail</h5>
+                    <p>Details of an item conversation</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./img/projects/Artizia/Review Seller.png"
+                    class="d-block w-50 projectSlide mobileSlide"
+                    alt="Review Seller"
+                  />
+                  <div class="carousel-caption d-md-block">
+                    <h5>Review a Seller</h5>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./img/projects/Artizia/Review Item.png"
+                    class="d-block w-50 projectSlide mobileSlide"
+                    alt="Review Item"
+                  />
+                  <div class="carousel-caption d-md-block">
+                    <h5>Review an Item</h5>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./img/projects/Artizia/Profile Top.png"
+                    class="d-block w-50 projectSlide mobileSlide"
+                    alt="Profile Top"
+                  />
+                  <div class="carousel-caption d-md-block">
+                    <h5>View Profile</h5>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./img/projects/Artizia/Profile Bottom.png"
+                    class="d-block w-50 projectSlide mobileSlide"
+                    alt="Profile Bottom"
+                  />
+                  <div class="carousel-caption d-md-block">
+                    <h5>Continuation of View Profile</h5>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./img/projects/Artizia/Edit Profile Top.png"
+                    class="d-block w-50 projectSlide mobileSlide"
+                    alt="Edit Profile Top"
+                  />
+                  <div class="carousel-caption d-md-block">
+                    <h5>Edit Profile</h5>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./img/projects/Artizia/Edit Profile Bottom.png"
+                    class="d-block w-50 projectSlide mobileSlide"
+                    alt="Edit Profile Bottom"
+                  />
+                  <div class="carousel-caption d-md-block">
+                    <h5>Continuation of Edit Profile</h5>
+                  </div>
+                </div>
+                <div class="carousel-item ps-md-3 pe-3">
+                  <img
+                    src="./img/projects/Artizia/Admin Sign In.png"
+                    class="d-block w-100 projectSlide"
+                    alt="Admin Sign In"
+                  />
+                  <div class="carousel-caption d-md-block">
+                    <h5>Admin Sign In</h5>
+                  </div>
+                </div>
+                <div class="carousel-item ps-md-3 pe-3">
+                  <img
+                    src="./img/projects/Artizia/Admin Announcements.png"
+                    class="d-block w-100 projectSlide"
+                    alt="Admin Announcements"
+                  />
+                  <div class="carousel-caption d-md-block">
+                    <h5>Announcements</h5>
+                    <p>Edit or delete announcements</p>
+                  </div>
+                </div>
+                <div class="carousel-item ps-md-3 pe-3">
+                  <img
+                    src="./img/projects/Artizia/Create Announcement.png"
+                    class="d-block w-100 projectSlide"
+                    alt="Create Announcements"
+                  />
+                  <div class="carousel-caption d-md-block">
+                    <h5>Create Announcements</h5>
+                  </div>
+                </div>
+                <div class="carousel-item ps-md-3 pe-3">
+                  <img
+                    src="./img/projects/Artizia/Send Notification.png"
+                    class="d-block w-100 projectSlide"
+                    alt="Send Notification"
+                  />
+                  <div class="carousel-caption d-md-block">
+                    <h5>Send Notification</h5>
+                    <p>Admin can send notifications to users</p>
+                  </div>
+                </div>
+                <div class="carousel-item ps-md-3 pe-3">
+                  <img
+                    src="./img/projects/Artizia/Add Category.png"
+                    class="d-block w-100 projectSlide"
+                    alt="Add Category"
+                  />
+                  <div class="carousel-caption d-md-block">
+                    <h5>Add Category</h5>
+                  </div>
+                </div>
+                <div class="carousel-item ps-md-3 pe-3">
+                  <img
+                    src="./img/projects/Artizia/Manage Users.png"
+                    class="d-block w-100 projectSlide"
+                    alt="Manage Users"
+                  />
+                  <div class="carousel-caption d-md-block">
+                    <h5>Manage Users</h5>
+                    <p>Enable or disable users</p>
+                  </div>
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#artiziaCarouselFade"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#artiziaCarouselFade"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <div class="col-md-6">
+              <div class="card-body pt-5 ps-4 pb-5 pe-4">
+                <h2 class="card-title pb-4">Artizia</h2>
+                <p class="card-text">
+                  This application allows artisans to sell their crafts. Buyers
+                  can purchase via messaging with the seller.
+                </p>
+                <p class="card-text">
+                  <i><b>Technologies used:</b></i> React Native, Expo, Redux,
+                  React, Material-UI, NodeJS, MySQL, Heroku
+                </p>
+                <p class="card-text">
+                  <i><b>Github repository:</b></i>
+                  <a
+                    href="https://github.com/jcollins202009/artizia"
+                    target="_blank"
+                    >https://github.com/jcollins202009/artizia</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mt-5 mb-5 projectCard">
+          <div class="row ps-3">
+            <div
+              id="guessANumberCarouselFade"
+              class="col-md-6 carousel slide carousel-fade pt-5 pb-lg-5 projectCarousel"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="./img/projects/Guess A Number/Start a New Game.png"
+                    class="d-block w-50 projectSlide mobileSlide"
+                    alt="Start a New Game"
+                  />
+                  <div class="carousel-caption d-md-block">
+                    <h5>Start a New Game</h5>
+                    <p>Enter a number and click Confirm to lock in number</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./img/projects/Guess A Number/Confirm a Number.png"
+                    class="d-block w-50 projectSlide mobileSlide"
+                    alt="Confirm a Number"
+                  />
+                  <div class="carousel-caption d-md-block">
+                    <h5>Number Confirmed</h5>
+                    <p>Press Start Game to continue</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./img/projects/Guess A Number/Computer Guess 1.png"
+                    class="d-block w-50 projectSlide mobileSlide"
+                    alt="Computer Guess #1"
+                  />
+                  <div class="carousel-caption d-md-block">
+                    <h5>Computer Guess #1</h5>
+                    <p>If the guess is lower than the confirmed number, press plus button. If not, press the minus button.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                    <img
+                      src="./img/projects/Guess A Number/Computer Guess 2.png"
+                      class="d-block w-50 projectSlide mobileSlide"
+                      alt="Computer Guess #2"
+                    />
+                    <div class="carousel-caption d-md-block">
+                      <h5>Next Computer Guess</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="./img/projects/Guess A Number/Game Over.png"
+                      class="d-block w-50 projectSlide mobileSlide"
+                      alt="Game Over"
+                    />
+                    <div class="carousel-caption d-md-block">
+                      <h5>Game Over</h5>
+                      <p>Guess matched confirmed number</p>
+                    </div>
+                  </div>
+                </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#guessANumberCarouselFade"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#guessANumberCarouselFade"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <div class="col-md-6">
+              <div class="card-body pt-5 ps-4 pb-5 pe-4">
+                <h2 class="card-title pb-4">Guess a Number</h2>
+                <p class="card-text">
+                  This application allows the computer to guess your number by giving higher or lower hints.
+                </p>
+                <p class="card-text">
+                  <i><b>Technologies used:</b></i> React Native, Expo
+                </p>
+                <p class="card-text">
+                  <i><b>Github repository:</b></i>
+                  <a
+                    href="https://github.com/jcollins202009/guess-a-number"
+                    target="_blank"
+                    >https://github.com/jcollins202009/guess-a-number</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mt-5 mb-5 projectCard">
+          <div class="row ps-3">
+            <div
+              id="courseGoalsCarouselFade"
+              class="col-md-6 carousel slide carousel-fade pt-5 pb-lg-5 projectCarousel"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="./img/projects/Course Goals/List Course Goals.png"
+                    class="d-block w-50 projectSlide mobileSlide"
+                    alt="List Course Goals"
+                  />
+                  <div class="carousel-caption d-md-block">
+                    <h5>List Course Goals</h5>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./img/projects/Course Goals/Add Course Goal.png"
+                    class="d-block w-50 projectSlide mobileSlide"
+                    alt="Add Course Goal"
+                  />
+                  <div class="carousel-caption d-md-block">
+                    <h5>Add Course Goal</h5>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./img/projects/Course Goals/List Course Goals After Add.png"
+                    class="d-block w-50 projectSlide mobileSlide"
+                    alt="List Course Goals After Add"
+                  />
+                  <div class="carousel-caption d-md-block">
+                    <h5>List Course Goals After Add</h5>
+                    <p>Can also delete course goal by clicking on it</p>
+                  </div>
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#courseGoalsCarouselFade"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#courseGoalsCarouselFade"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <div class="col-md-6">
+              <div class="card-body pt-5 ps-4 pb-5 pe-4">
+                <h2 class="card-title pb-4">Course Goals</h2>
+                <p class="card-text">
+                  This application allows students to add or delete course
+                  goals.
+                </p>
+                <p class="card-text">
+                  <i><b>Technologies used:</b></i> React Native, Expo
+                </p>
+                <p class="card-text">
+                  <i><b>Github repository:</b></i>
+                  <a
+                    href="https://github.com/jcollins202009/course-goals"
+                    target="_blank"
+                    >https://github.com/jcollins202009/course-goals</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mt-5 mb-5 projectCard">
+          <div class="row ps-3">
+            <div
+              id="parkedInCarouselFade"
+              class="col-md-6 carousel slide carousel-fade pt-5 pb-lg-5 projectCarousel"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="./img/projects/ParkedIn/Home Mobile.png"
+                    class="d-block w-50 projectSlide mobileSlide"
+                    alt="Home Mobile"
+                  />
+                  <div class="carousel-caption d-md-block">
+                    <h5>Show Parking Lots</h5>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./img/projects/ParkedIn/Parking Lot Mobile Top.png"
+                    class="d-block w-50 projectSlide mobileSlide"
+                    alt="Parking Lot Mobile Top"
+                  />
+                  <div class="carousel-caption d-md-block">
+                    <h5>Top of View Details of Parking Lot</h5>
+                    <p>Also centres map to parking lot</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./img/projects/ParkedIn/Parking Lot Mobile Bottom.png"
+                    class="d-block w-50 projectSlide mobileSlide"
+                    alt="Parking Lot Mobile Bottom"
+                  />
+                  <div class="carousel-caption d-md-block">
+                    <h5>Continuation of View Details of Parking Lot</h5>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./img/projects/ParkedIn/Directions Mobile.png"
+                    class="d-block w-50 projectSlide mobileSlide"
+                    alt="Directions"
+                  />
+                  <div class="carousel-caption d-md-block">
+                    <h5>Get Directions</h5>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./img/projects/ParkedIn/Sign In Mobile.png"
+                    class="d-block w-50 projectSlide mobileSlide"
+                    alt="Sign In"
+                  />
+                  <div class="carousel-caption d-md-block">
+                    <h5>Employee Sign In</h5>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./img/projects/ParkedIn/Parking Lots Mobile.png"
+                    class="d-block w-50 projectSlide mobileSlide"
+                    alt="Parking Lots Mobile"
+                  />
+                  <div class="carousel-caption d-md-block">
+                    <h5>Parking Lots for Employee</h5>
+                    <p>Select parking lot to manage availability</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./img/projects/ParkedIn/Availability Mobile.png"
+                    class="d-block w-50 projectSlide mobileSlide"
+                    alt="Availability Mobile"
+                  />
+                  <div class="carousel-caption d-md-block">
+                    <h5>Availability</h5>
+                    <p>
+                      Manually decrement or increment availability when cars
+                      enter or leave respectively. Can also manually override
+                      availability.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#parkedInCarouselFade"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#parkedInCarouselFade"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <div class="col-md-6">
+              <div class="card-body pt-5 ps-4 pb-5 pe-4">
+                <h2 class="card-title pb-4">ParkedIn</h2>
+                <p class="card-text">
+                  This application shows the parking availability in the Lake
+                  Louise region.
+                </p>
+                <p class="card-text">
+                  <i><b>Technologies used:</b></i> React, Bootstrap, Html, CSS,
+                  Javascript, NodeJS, CouchDb, AWS
+                </p>
+                <p class="card-text">
+                  <i><b>Github repository:</b></i>
+                  <a
+                    href="https://github.com/jcollins202009/parkedIn"
+                    target="_blank"
+                    >https://github.com/jcollins202009/parkedIn</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mt-5 mb-5 projectCard">
+          <div class="row ps-3">
+            <div
+              id="smartBrainCarouselFade"
+              class="col-md-6 carousel slide carousel-fade pt-5 pb-lg-5 projectCarousel"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active ps-md-3 pe-3">
+                  <img
+                    src="./img/projects/Smart Brain/Register.png"
+                    class="d-block w-100 projectSlide"
+                    alt="Register"
+                  />
+                  <div class="carousel-caption d-md-block">
+                    <h5>Register</h5>
+                  </div>
+                </div>
+                <div class="carousel-item ps-md-3 pe-3">
+                  <img
+                    src="./img/projects/Smart Brain/Sign In.png"
+                    class="d-block w-100 projectSlide"
+                    alt="Sign In"
+                  />
+                  <div class="carousel-caption d-md-block">
+                    <h5>Sign In</h5>
+                  </div>
+                </div>
+                <div class="carousel-item ps-md-3 pe-3">
+                  <img
+                    src="./img/projects/Smart Brain/Try Face Detection.png"
+                    class="d-block w-100 projectSlide"
+                    alt="Try Face Detection"
+                  />
+                  <div class="carousel-caption d-md-block">
+                    <h5>Try Face Detection</h5>
+                    <p>Enter url of picture with face and click Detect</p>
+                  </div>
+                </div>
+                <div class="carousel-item ps-md-3 pe-3">
+                  <img
+                    src="./img/projects/Smart Brain/Face Detected.png"
+                    class="d-block w-100 projectSlide"
+                    alt="Face Detected"
+                  />
+                  <div class="carousel-caption d-md-block">
+                    <h5>Face Detected</h5>
+                    <p>
+                      Face is detected. Entry count also increments.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#smartBrainCarouselFade"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#smartBrainCarouselFade"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <div class="col-md-6">
+              <div class="card-body pt-5 ps-4 pb-5 pe-4">
+                <h2 class="card-title pb-4">Smart Brain</h2>
+                <p class="card-text">
+                  This application detects faces in images, and keeps track of
+                  how many times you've attempted detection.
+                </p>
+                <p class="card-text">
+                  <i><b>Technologies used:</b></i> React, NodeJS, PostgreSQL
+                </p>
+                <p class="card-text">
+                  <i><b>Github repository:</b></i>
+                  <a
+                    href="https://github.com/jcollins202009/face-recognition-brain"
+                    target="_blank"
+                    >https://github.com/jcollins202009/face-recognition-brain</a
+                  >
+                  &emsp;&emsp;&emsp;<a
+                    href="https://github.com/jcollins202009/face-recognition-brain-api"
+                    target="_blank"
+                    >https://github.com/jcollins202009/face-recognition-brain-api</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mt-5 mb-5 projectCard">
+          <div class="row ps-3">
+            <div
+              id="robofriendsCarouselFade"
+              class="col-md-6 carousel slide carousel-fade pt-5 pb-lg-5 projectCarousel"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active ps-md-3 pe-3">
+                  <img
+                    src="./img/projects/Robofriends/Home.png"
+                    class="d-block w-100 projectSlide"
+                    alt="Home"
+                  />
+                  <div class="carousel-caption d-md-block">
+                    <h5>Show all robofriends</h5>
+                  </div>
+                </div>
+                <div class="carousel-item  ps-md-3 pe-3">
+                  <img
+                    src="./img/projects/Robofriends/Search.png"
+                    class="d-block w-100 projectSlide"
+                    alt="Search"
+                  />
+                  <div class="carousel-caption d-md-block">
+                    <h5>Search</h5>
+                    <p>Search for robofriends as you type part of their name</p>
+                  </div>
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#robofriendsCarouselFade"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#robofriendsCarouselFade"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <div class="col-md-6">
+              <div class="card-body pt-5 ps-4 pb-5 pe-4">
+                <h2 class="card-title pb-4">Robofriends</h2>
+                <p class="card-text">
+                  This application shows a list of robofriends, and allows you
+                  to search for particular robofriends.
+                </p>
+                <p class="card-text">
+                  <i><b>Technologies used:</b></i> React, Redux
+                </p>
+                <p class="card-text">
+                  <i><b>Github repository:</b></i>
+                  <a
+                    href="https://github.com/jcollins202009/robofriends"
+                    target="_blank"
+                    >https://github.com/jcollins202009/robofriends</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+        <span class="anchor" id="contact"> </span>
+        <div class="row">
+          <div class="col-md-2"></div>
+          <div class="col-md-8">
+        <div class="card mt-5">
+              <div class="card-body pt-4 ps-4 pb-5 pe-4 d-flex flex-column justify-content-center align-items-center">
+                <h1 class="card-title pb-4">Contact</h1>
+                <p class="card-text">
+                  If you have any questions or are interested to discuss further
+                  with me, you can reach me at:
+                </p>
+                <p class="card-text">
+                  Email: jason.collins-profile@outlook.com
+                </p>
+                
+                  <a href="http://www.linkedin.com/in/jasoncollins202009" target="_blank" ><i class="bi-linkedin" style="font-size: 2rem; color:#4d0026;"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>  
+      </div> 
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="profile.js"></script>
+  </body>
+</html>
+
+<!-- <section>
+            <div class="zone lightGrey gridWrapper" id="rolesGridWrapper">    
+                <p class="sectionHeader lightGrey"><strong>Roles.</strong></p>
+                <div class="box showBox darkGrey"><p>IT Support</p></div>
+                <div class="box showBox darkGrey"><p>QA Analyst</p></div>
+            </div>
+        </section>  -->

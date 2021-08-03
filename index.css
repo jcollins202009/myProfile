@@ -1,0 +1,37 @@
+
+body {
+    background-color: #4d0026;
+}
+
+.customButton {
+    color: #ffcce6;
+	border: solid #ffcce6 2px;
+    background-color: #4d0026;
+    
+    opacity: 0.7;
+    text-decoration: none;
+  
+    padding: 5px 25px 5px 25px;
+    position: fixed;
+    top: 45%;
+    left: 45%;  
+    z-index: 100;
+    margin: 0 0 0 0;
+}
+
+@media (max-width: 978px) {
+    .customButton {
+        top: 45%;
+        left: 31%;  
+    }
+}
+
+
+.customButton:hover {
+    background-color: #ffcce6;
+    color: #4d0026;
+}
+
+canvas { 
+    display: block; 
+}
